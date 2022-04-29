@@ -1,0 +1,18 @@
+Cluster_Method,Comp. Measures,Opt-k,Accuracy,F1_score
+BIRCH,F1_F3,33,0.284,0.222489169
+,,,,
+BIRCH,F1_N1,33,0.284,0.222489169
+,,,,
+BIRCH,F3_N1,2,0.248,0.180434
+,,,,
+Bis_K_Means,F1_F2,67,0.136,0.097728
+,,,,
+Bis_K_Means,F1_F3_N1,76,0.152,0.088769
+,,,,
+BIRCH,F1_F2_F3,33,0.284,0.222489169
+Cluster_Method,Opt-k,Accuracy,F1_score
+3,77.0,0.18,0.1293925371079766
+Cluster_Method,Opt-k,Accuracy,F1_score
+0,67.0,0.248,0.20935930735930733
+Cluster_Method,Opt-k,Accuracy,F1_score
+0,67.0,0.248,0.20935930735930733

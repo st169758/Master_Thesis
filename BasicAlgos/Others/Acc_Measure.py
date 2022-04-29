@@ -14,8 +14,8 @@ warnings.filterwarnings("ignore")
 
 def get_data():
     # Import training and testing data from Imbalance Data Generator project output CSV file:
-    df_train = pd.read_csv('./Training_Data.csv')
-    df_test = pd.read_csv('./Testing_Data.csv')
+    df_train = pd.read_csv('../Dataset/Training_Data.csv')
+    df_test = pd.read_csv('../Dataset/Testing_Data.csv')
 
     y_train = df_train['target'].to_numpy()
     X_train = df_train.drop(columns=['index', 'target'])
